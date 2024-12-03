@@ -3,23 +3,23 @@
 // compile time polymorphism (method overloading)
 
 
-// class Calculator{
+class Calculators{
 
-//     add (a :number , b: number) :number ;
-//     add (a :string , b :string) :string;
+    add (a :number , b: number) :number ;
+    add (a :string , b :string) :string;
 
-//     add (a: any , b: any): any{
+    add (a: any , b: any): any{
 
-//         return a+b ;
-//     }
+        return a+b ;
+    }
 
-// }
+}
 
 
-// let calc = new Calculator()
+let calcu = new Calculator()
 
-// console.log(calc.add(2,3));
-// console.log(calc.add("Hello", "World"));
+console.log(calcu.add(2,3));
+console.log(calcu.add("Hello", "World"));
 
 
 

@@ -2,7 +2,7 @@
 
 abstract class Animal2 {
     
-    // abstract makeSound() : void ;
+    abstract makeSound() : void ;
 
 
     move (): void {
